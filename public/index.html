@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="icon.jpg">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>  
+        <a href="/home-page.html" class="home"></a>
+
+        <div id="bodyimg">
+        <div class="imgcontainer">
+            <img src="gym_avatar.jpg" alt="Avatar" class="avatar">
+          </div>
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1>Log In</h1>
+                <form id = "sform" action ="/users/login/:password-:email'" onclick="failed()" method="POST" >
+                    <label >User Name</label>
+                    <!-- <input type="text" id = "usern"name="usern" placeholder="User name" required> -->
+                    <label for="email">Email</label>
+                    <input type = "text" id = "email" name = "email" placeholder="Email" required>
+                    <label for="pass">Password</label>
+                    <input type = "text" id = "pass" name = "password" placeholder="Password"  required>
+                    <!-- <input  onclick="document.getElementById('sform').action = `/users/login/${document.getElementById('pass').value}-${document.getElementById('email').value}`" type="submit" value= "submit"> -->
+                    <!-- setting the url by the forms values -->
+                    <button onclick="document.getElementById('sform').action = `/users/login/${document.getElementById('pass').value}-${document.getElementById('email').value}`">Log in</button>
+                </form>
+                
+                    Don't have a user yet? 
+                </label>
+               <a href="./signup.html"> <button>Sign Up</button></a>
+            </div>
+        </div>
+        <footer id = footerMain>
+
+        </footer>              
+      </div>
+    </body>
+</html>

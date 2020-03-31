@@ -1,0 +1,210 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {
+    font-family: Verdana, sans-serif;
+    display:grid;
+    line-height: 1.4;
+    color: #333333;
+    background-image:  linear-gradient(
+        rgba(0, 0, 0.5, 0.5), 
+        rgba(0, 0, 0, 0.2)
+      ),url(https://ae01.alicdn.com/kf/HTB1Jhi1X2vsK1Rjy0Fiq6zwtXXaU/3d.jpg_q50.jpg);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+#submit{
+    margin-top: 20px;
+    margin-left: 40%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+input {
+    font-size: 14px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgb(77, 76, 76);
+}
+
+
+h1 {
+    margin-bottom: 16px;
+}
+#radioBtn{
+    margin-top: 8%;
+    /* display: inline; */
+    font-size: 25px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgb(0, 0, 0);
+}
+#radioInput{
+    /* position: absolute;
+    display: block; */
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+#tbContainer{
+display: grid;}
+#toolbar {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(124, 158, 230, 0.822);
+    margin-bottom: 3%;
+}
+#tB {
+    float: right;
+  }
+  
+  #tB a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 36px;
+    text-decoration: none;
+  }
+  #tB a:hover {
+    background-color:rgb(31, 32, 32);
+  }
+  h1{
+    font-family: 'Shuneet', serif;
+    font-size: 81px;
+    text-shadow: 2px 2px 5px #524545;
+    text-decoration: underline;
+    margin-bottom: 10%;
+    /* background: rgba(255, 255, 255, 0.726); */
+  }
+  h2{
+    font-family: 'Shuneet', serif;
+    font-size: 40px;
+
+  }
+  .home {
+    /* background-color: #4CAF50; */
+    color: white;
+    width: 90px;
+    height: 90px;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: 'Shuneet', serif;
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 10px;
+    font-size: 21px;
+    background-image: url('https://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png');
+    background-repeat: no-repeat;
+    background-size: 90px;
+
+  }
+  #mainContainer{
+    text-align: center;
+    width: 850px;
+    padding: 40px;
+    margin-left: 30%;
+    background: rgba(255, 255, 255, 0.83);
+    }
+    #mainContainerMeeting{
+        text-align: center;
+        width: 850px;
+        margin-top: 10%;
+        padding: 40px;
+        margin-left: 30%;
+        background: rgba(255, 255, 255, 0.83);
+        }
+  p {
+    font-family: 'Shuneet', serif;
+    font-size: 25px;
+  }
+label {
+    display: block;
+    font-size: 25px;
+    font-family: Impact, Charcoal, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+}
+#comments{
+    font-size: 18px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgb(77, 76, 76);
+}
+#dateForm{
+    background: url('../21411577.jpg');
+    width: 100vw;
+    height: 50vw;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#datebox {
+    box-shadow: 0px 0px 17px 1px #1D1F26;
+    background:linear-gradient(
+     rgba(84, 133, 207), 
+    rgba(14, 57, 63, 0.918));
+    padding: 80px;
+    width: 500px;
+}
+input {
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    padding: 12px;
+    background: #7C5CBF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    /* transition: background .3s ease; */
+}
+
+button:hover {
+    background: #6b47b8;
+}
+
+button:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+}
+
+li{
+    font-size: 21px;
+}
+/* Add media queries for smaller screens */
+/* @media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+} */
+
+
+#dateForm{
+    display: inline-grid;
+}
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/home-page.css">
+    </head>
+    <body>
+        <a href="/home-page.html" class="home"></a>
+
+        <form id="dateForm" action="/thank">
+            <div id="datebox">  
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder = "Email"required >
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required >
+            <label>Comments</label>
+            <input rows="4" cols="40" name="comment"  placeholder="Enter text here" id ="comments">
+            <!-- <input/><textarea rows="4" cols="40" name="comment" form="usrform" placeholder="Enter text here" id ="comments"></textarea> -->
+            <div id="radioBtn">
+            <input id="radioInput" type="radio" name="group" value="group" checked />Group
+            <input id="radioInput" type="radio" name="group" value="alone"/>Alone
+            </div>
+            <br>
+            <input id = "submit" type="submit">
+          </form>
+  
+    </body>
+</html>

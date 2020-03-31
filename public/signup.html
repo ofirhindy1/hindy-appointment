@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="icon.jpg">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <a href="/home-page.html" class="home"></a>
+
+        <div id = signupBox>
+        <div class="centered-form">
+            <div class="centered-form__box">
+                <h1>Sign Up</h1>
+                <form id = "sform" action =""  method="POST">
+                    <label>User Name</label>
+                    <input type="text" id = "usern"name="usern" placeholder="User name" required>
+                    <label>Email</label>
+                    <input type = "text" id = "email" name = "email" placeholder="Email" required>
+                    <label>Password</label>
+                    <input type = "text" id = "pass" name = "password" placeholder="Password" required>
+                    <!-- setting the url by the forms values -->
+                    <button onclick="document.getElementById('sform').action = `/users/${document.getElementById('usern').value}-${document.getElementById('pass').value}-${document.getElementById('email').value}`">Sign Up</button>
+                </form>
+                <label>
+                    Already have a user? 
+                </label>
+               <a href="./index.html"> <button>Log In</button></a>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
