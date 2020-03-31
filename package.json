@@ -1,7 +1,6 @@
 {
   "name": "appointment-manager",
   "version": "1.0.0",
-  "description": "",
   "main": "mongodb.js",
   "scripts": {
     "start": "node src/index.js",
@@ -23,5 +22,15 @@
   "devDependencies": {
     "nodemon": "^2.0.2",
     "window": "^4.2.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofirhindy1/hindy-appointment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ofirhindy1/hindy-appointment/issues"
+  },
+  "homepage": "https://github.com/ofirhindy1/hindy-appointment#readme",
+  "description": ""
 }
+
